@@ -1,0 +1,15 @@
+<section>
+  <h3>Event Binding</h3>
+  <button (click)=
+  "clique()">Clique aqui</button>
+  <br>
+  <input type="text" (keyup)=
+  "onKeyUp($event)">
+  <p>Valor digitado: {{valorDigitado}}</p>
+  <br>
+  <span (mouseover)=
+  "onMouseOver()"
+   (mouseout)=
+  "onMouseOut()">Passe o mouse </span>
+  <p>Status do mouse: {{isMouseOver}}</p>
+  </section>
