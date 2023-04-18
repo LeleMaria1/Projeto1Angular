@@ -6,16 +6,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
+import { ProdutosComponent } from './produtos/produtos.component';
+import { PedidosComponent } from './pedidos/pedidos.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    HomeComponent,
+    ProdutosComponent,
+    PedidosComponent
   ],
   imports: [
     BrowserModule,
     CoreModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [TesteService],
   bootstrap: [AppComponent]
