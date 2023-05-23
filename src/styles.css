@@ -16,6 +16,7 @@ body{
     background-color: #246f92;
 }
 
+
 main {
     flex: 1 0 auto;
 }
@@ -27,7 +28,14 @@ img{
     height: 50px;
 }
 
-.white-text2{
+
+.white-text1{
+    color: #ffa450;
+}
+
+
+
+.white-text3{
     padding-left: 80px;
 }
 
