@@ -6,13 +6,25 @@ body{
 h4{
     text-align: center;
     font-family: 'Caveat', cursive;
+    color: black;
 }
 p{
-    font-size: 25px;
+    font-size: 29px;
     text-align: center;
     font-family: 'Caveat', cursive;
+    color: black;
 }
-ul{
+
+div{
     display: inline-block;
 }
 
+img{
+    width: auto;
+    height: 300px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 60%;
+    border-color: #836333;
+    border-style: dashed;
+}

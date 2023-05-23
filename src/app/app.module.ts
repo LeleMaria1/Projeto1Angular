@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     DataBindingComponent,
     HomeComponent,
     ProdutosComponent,
-    PedidosComponent
+    PedidosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

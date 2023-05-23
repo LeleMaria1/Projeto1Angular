@@ -2,7 +2,10 @@ a{
     font-family: 'Caveat', cursive;
     font-size: 40px;
     color: #ffebcd;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 div{
-   background-color: #6b8e23;
+   background-color: #940627;
 }
+

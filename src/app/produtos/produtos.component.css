@@ -1,0 +1,42 @@
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: black;
+    background-color: rgb(142, 125, 102);
+    border-radius: 60%;
+}
+
+h3{
+    text-align: left;
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: rgb(69, 45, 45);
+    
+}
+
+
+div{
+    display: inline-block;
+}
+
+img{
+    width: 90%;
+    height: 200px;
+    margin-top: 40px;
+    padding: 2px;
+    border-radius: 60%;
+    /*border-color: #836333;
+    border-style:groove;*/
+}
+

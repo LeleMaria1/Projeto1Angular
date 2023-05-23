@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+   
+    background-image: url(https://img.freepik.com/free-photo/collection-soft-yarn_23-2147930366.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.page-footer{
+    margin-top: 50px;
+    font-family: 'Caveat', cursive;
+    background-color: #246f92;
+}
+
+main {
+    flex: 1 0 auto;
+}
+     
+
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.white-text2{
+    padding-left: 80px;
+}
+
+
+
